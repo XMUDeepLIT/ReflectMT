@@ -6,7 +6,7 @@
     <img src="docs/method.png" alt="ReflectMT architecture">
   </a>
 </p>
-<p align="center"><em><a href="docs/method.pdf">Overview of ReflectMT (vector PDF)</a></em></p>
+<p align="center"><em><a href="docs/method.pdf">Overview of ReflectMT</a></em></p>
 
 ReflectMT is a two-stage reinforcement learning framework for efficient, high-quality machine translation. It first teaches models to translate, reflect, and refine, then internalizes these skills into direct translation, enabling high-quality outputs without explicit reflection at inference time. The framework combines multi-agent reflection data construction with multi-dimensional reward modeling. On WMT24 English-to-Chinese translation, ReflectMT achieves a GPT-4o-based GRF score of 86.16, compared with 84.03 for DeepSeek-R1, while generating approximately 92% fewer output tokens.
 
